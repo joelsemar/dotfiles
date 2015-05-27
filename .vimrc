@@ -254,3 +254,5 @@ autocmd VimEnter * wincmd w
 set list
 set listchars=tab:▸\ ,eol:¬,trail:.,extends:›,precedes:‹
 au BufWritePre * :%s/\s\+$//e
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
